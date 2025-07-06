@@ -1,0 +1,115 @@
+/* Import Google Font */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #0c1c58;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+/* Title */
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+.subtitle {
+  text-align: center;
+  font-size: 14px;
+  color: #888;
+  margin-top: -10px;
+  margin-bottom: 20px;
+}
+
+/* Your name / credit */
+#credit {
+  margin-top: 40px;
+  color: #ccc;
+  font-size: 0.9rem;
+}
+
+/* Search input */
+#search {
+  padding: 12px 20px;
+  width: 90%;
+  max-width: 400px;
+  font-size: 1rem;
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+  outline: none;
+  margin-bottom: 20px;
+  font-family: inherit;
+}
+
+#search:focus {
+  border-color: #1abc9c;
+  box-shadow: 0 0 5px rgba(26, 188, 156, 0.7);
+}
+
+/* Loading and no match */
+#loading,
+#no-matches {
+  font-size: 1rem;
+  margin-top: 10px;
+  color: #ffcc00;
+}
+
+/* Match container */
+#scores {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Match card */
+.match {
+  background: #1c1c1c;
+  color: white;
+  padding: 20px;
+  margin: 15px 0;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 600px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+
+.match h3 {
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
+
+.match p {
+  margin: 4px 0;
+  font-size: 0.95rem;
+}
+.logo {
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
+  margin: 0 5px;
+}
+
+.teams {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.match:hover {
+  display: block;
+  transform: scale(1.02);
+  background-color: rgb(94, 134, 34);
+}
+
+
+.league-title {
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+
